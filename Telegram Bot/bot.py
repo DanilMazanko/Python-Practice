@@ -2,7 +2,7 @@ from email import message
 from multiprocessing import parent_process
 import telebot
 from telebot import types
-bot = telebot.TeleBot('5361727946:AAHSoOOBoi3UrSaUJsx-KRpsmkYY95Lw5LE')
+# bot = telebot.TeleBot()
 
 
 @bot.message_handler(commands=['start'])
