@@ -1,5 +1,5 @@
 # function to calculate the averege price
-
+from prettytable import PrettyTable
 
 def average(count, number):
     for i in range(len(min_price)):
